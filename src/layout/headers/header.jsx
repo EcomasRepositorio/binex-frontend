@@ -46,7 +46,7 @@ const HeaderOne = () => {
                                  <li>
                                     <a href="#" 
                                     target="_blank"><span>
-                                       <i className=" fa-sharp fa-solid fa-location-dot"></i>
+                                       <i className="fa-solid fa-envelope"></i>
                                        </span>Verificar certificado</a>
                                  </li>
                                  <li>
@@ -73,7 +73,7 @@ const HeaderOne = () => {
                      </div>
                   </div>
                </div>
-               <div id="header-sticky" 
+               <div id="header-sticky"  
                className={`tp-header-bottom header__sticky p-relative ${sticky && "tp-header-sticky"}`}>
                   <div className="tp-header-bottom-space p-relative">
                      <div className="container-fluid gx-0">

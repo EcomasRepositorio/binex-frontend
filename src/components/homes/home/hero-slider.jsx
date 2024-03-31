@@ -35,8 +35,8 @@ const slider_data = [
   {
     id: 1,
     bg_img: "/assets/img/hero/bannerOne.png",
-    sub_title_1: "best",
-    sub_title_2: "it solutions",
+    sub_title_1: "BINEX",
+    sub_title_2: "EDUCACIÓN CONTINUA",
     hero_title_1: "platform of",
     hero_title_2: "Avicii",
     hero_support: "support",
@@ -44,8 +44,8 @@ const slider_data = [
   {
     id: 2,
     bg_img: "/assets/img/hero/bannerThree.png",
-    sub_title_1: "best",
-    sub_title_2: "it solutions",
+    sub_title_1: "BINEX",
+    sub_title_2: "EDUCACIÓN CONTINUA",
     hero_title_1: "IT service & ",
     hero_title_2: "Tech",
     hero_support: "Bundles",
@@ -53,8 +53,8 @@ const slider_data = [
   {
     id: 3,
     bg_img: "/assets/img/hero/hero-1.jpg",
-    sub_title_1: "best",
-    sub_title_2: "it solutions",
+    sub_title_1: "BINEX",
+    sub_title_2: "EDUCACIÓN CONTINUA",
     hero_title_1: "platform of",
     hero_title_2: "Tech",
     hero_support: "Solution",
@@ -121,7 +121,7 @@ const HeroSlider = () => {
                                 </h3>
                                 <div className="tp-hero-btn">
                                   <Link className="tp-btn" href="/about">
-                                    Learn More{" "}
+                                    Mas Información{" "}
                                     <i className="fa-regular fa-arrow-right-long"></i>
                                   </Link>
                                 </div>
@@ -164,8 +164,8 @@ const HeroSlider = () => {
 
           <div className="tp-hero-bottom">
             <div className="tp-hero-experince">
-              <span className="year"> 13
-                <br /> <i className="experince">Years of Experince</i>
+              <span className="year"> 4
+                <br /> <i className="experince">Años de Experiencia</i>
               </span>
             </div>
           </div>
@@ -178,9 +178,8 @@ const HeroSlider = () => {
               <Image src={service_shape} alt="theme-pure" />
             </div>
             <p>
-              Our company provides a full range of <span>services</span> for the
-              cons <br />
-              private houses and cottages since 19
+            Comprometidos con tu <span>educación</span> , nuestra misión es brindarte los mejores cursos y diplomados para impulsar <br/>
+             tu crecimiento profesional y personal.
             </p>
             <div className="tp-hero-service-quote">
               <Image src={service_quote} alt="theme-pure" />

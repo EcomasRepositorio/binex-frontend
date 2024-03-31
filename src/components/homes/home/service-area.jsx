@@ -147,7 +147,7 @@ const ServiceArea = () => {
                      <div className="row">
                         <div className="col-lg-12">
                            <div className="tp-service-all-btn text-center fadeUp">
-                              <Link className="tp-btn" href="/service-details">View all Services</Link>
+                              <Link className="tp-btn" href="/service-details">View all Servicess</Link>
                            </div>
                         </div>
                      </div>
@@ -193,7 +193,7 @@ const ServiceArea = () => {
                                     service <span className="title-pre-color">IT Solutions</span> 
                                     <AngleArrow />
                                  </span>
-                                 <h3 className="tp-section-title">Tech Change The World
+                                 <h3 className="tp-section-title">UN MUNDO COMPLICADO Y DESAFIANTE
                                     <span className="title-left-shape"> 
                                     <LineArrowTwo />
                                     </span>

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import headphone from "@assets/img/footer/headphone.png";
-import footer_logo from "@assets/img/logo/footer-logo.png";
+import footer_logo from "@assets/img/logo/logo.png";
 import user from "@assets/img/footer/user.png";
 import EmailAeroplan from '@/src/svg/email-aeroplan';
 import SocialLinks, { CopyRight } from '@/src/common/social-links';
