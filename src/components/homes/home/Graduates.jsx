@@ -33,6 +33,24 @@ const feature_content = {
             title: "Our Partners",
             description: <>As far as we might be concerned <br /> making an extraordinary ad</>,
         },
+        {
+            id: 4,
+            img: feature_img_1,
+            title: "Our mission",
+            description: <>As far as we might be concerned <br /> making an extraordinary ad</>,
+        },
+        {
+            id: 5,
+            img: feature_img_2,
+            title: "About History",
+            description: <>As far as we might be concerned <br /> making an extraordinary ad</>,
+        },
+        {
+            id: 6,
+            img: feature_img_3,
+            title: "Our Partners",
+            description: <>As far as we might be concerned <br /> making an extraordinary ad</>,
+        },
     ],
     
 }
@@ -53,24 +71,23 @@ const FeatureArea = ({about}) => {
                   <div className="col-lg-6">
                      <div className="tp-feature-title-wrapper">
                         <span className="tp-section-title__pre">
-                           feature <span className="title-pre-color">IT Solutions</span>
+                           Binex <span className="title-pre-color">Educación Continua</span>
                            <AngleArrow />
                         </span>
-                        <h3 className="tp-section-title">We’ve Been Thriving In <span className="title-color">38 Years</span>
+                        <h3 className="tp-section-title">Descubre nuestros <span className="title-color">Diplomados</span>
                            <span className="title-right-shape"> 
                               <LineArrowFive />
                            </span>
                         </h3>
                      </div>
+
+
+                     
+                     
                   </div>
-                  <div className="col-lg-6">
-                     <div className="tp-feature-wrapper p-relative">
-                        <p>As the complexity of buildings to increase, the field of architecture <br />
-                         became multi-disciplinary with technological expertise.</p>
-                     </div>
-                  </div>
-               </div>
-               <div className="row">
+                 
+
+                  <div className="row">
                 {feature_data.map((item, i)  => 
                     <div key={i} className="col-lg-4 col-md-6">
                         <div className="tp-feature-item-box p-relative wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
@@ -103,6 +120,11 @@ const FeatureArea = ({about}) => {
                 </div> 
                 )} 
                </div>
+
+               </div>
+               
+              
+
             </div>
          </section> 
         </>

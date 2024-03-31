@@ -131,10 +131,10 @@ const AboutArea = () => {
                            <div className="col-lg-8">
                               <div className="tp-about-title-wrapper p-relative">
                                  <span className="tp-section-title__pre">
-                                    best <span className="title-pre-color">it service</span>
+                                    Somos <span className="title-pre-color">tu mejor opción</span>
                                     <AngleArrow /> 
                                  </span>
-                                 <h3 className="tp-section-title">It Industries We’re Offering
+                                 <h3 className="tp-section-title">Alcanza nuevos límites, con Nosotros!
                                     <span className="title-left-shape">
                                     <LineArrowTwo /> 
                                     </span>
@@ -178,12 +178,7 @@ const AboutArea = () => {
                                 )} 
                                 </Swiper> 
 
-                           <div className="tp-about-call">
-                              <a href="tel:01310-069824">
-                                 <p><i className="fa-solid fa-phone"></i> 
-                                 Provide IT services to hundreds customers <span>+88 01310-069824</span></p>
-                              </a>
-                           </div>
+                          
 
                         </div>
                      </div>

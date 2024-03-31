@@ -97,60 +97,13 @@ const ServiceArea = () => {
 
     return (   
         <>
-            <div className="tp-service-funfact-box"> 
+            <div className="tp-service-funfact-box "> 
 
                <section className="tp-service-area pt-85 pb-50">
                   <div className="container-fluid">
-                     <div className="row">
+                     
 
-                        <div className="col-lg-12">
-                           <div className="tp-service-title-wrapper text-center">
-                              <span className="tp-section-title__pre">
-                                 service <span className="title-pre-color">IT Solutions</span> 
-                                 <AngleArrow />                                 
-                              </span>
-                              <h3 className="tp-section-title">All Professional <i>IT Solutions</i> & Services
-                                 <span className="title-center-shape"> 
-                                    <LineArrowTwo />
-                                 </span> 
-                              </h3>
-                           </div>
-                        </div>
-
-                        <div className="tp-service-slider-wrapper">
-                              <Splide options={setting}  ref={splideRef}  
-                                 className="service-active splide">
-                                 {service_data.map((item, i) => 
-                                 <SplideSlide key={i}>
-                                       <div className="tp-service-wrapper p-relative mb-55">
-                                          <div className="tp-service-designation">
-                                             <p>{item.alphabet}</p>
-                                          </div>
-                                          <h3 className="service-title">{item.title}</h3>
-                                          <div className="tp-service-icon">
-                                             <Image src={item.img} alt="theme-pure" />
-                                          </div>
-                                          <p className="hide-text">{item.description}</p>
-                                          <div className="tp-service-btn">
-                                             <Link href="/service-details">Read Out More 
-                                             <i className="fa-solid fa-arrow-up-right"></i>
-                                             </Link>
-                                          </div>
-                                       </div>
-                                 </SplideSlide>
-                                 )}
-                              </Splide>
-                        </div>
-
-                     </div>
-
-                     <div className="row">
-                        <div className="col-lg-12">
-                           <div className="tp-service-all-btn text-center fadeUp">
-                              <Link className="tp-btn" href="/service-details">View all Servicess</Link>
-                           </div>
-                        </div>
-                     </div>
+                     
 
                   </div>
                </section> 
@@ -163,7 +116,7 @@ const ServiceArea = () => {
                         <Image className="shape-2" src={fun_fact_shape_2} alt="theme-pure" />
                         <Image className="shape-3" src={fun_fact_shape_3} alt="theme-pure" />
                         <Image className="shape-4" src={fun_fact_shape_4} alt="theme-pure" />
-                        <Image className="shadow" src={fun_fact_shape_5} alt="theme-pure" />
+                       
                      </div>
 
                      <div className="row">

@@ -14,43 +14,41 @@ const menu_data = [
      
     ],
   },
+
   {
     id: 2,
     mega_menu: false,
     has_dropdown: false,
-    title: "Diplomados",
+    title: "Certificados",
     link: "/about",
     active: "",
-  },   
+  
+  },
   {
     id: 3,
     mega_menu: false,
     has_dropdown: false,
-    title: "Certificados",
+    title: "Nosotros",
     link: "/service",
     active: "",
-    sub_menus: [
-     
-    ],
+    
   },
+
+
   {
     id: 4,
     mega_menu: false,
     has_dropdown: false,
-    title: "Nosotros",
-    link: "/about",
+    title: "Contact",
+    link: "/contact",
     active: "",
-    sub_menus: [
-     
-    ],
   },
-
 
   {
     id: 5,
     mega_menu: false,
     has_dropdown: false,
-    title: "Contact",
+    title: "Blog",
     link: "/contact",
     active: "",
   },

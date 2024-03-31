@@ -1,12 +1,7 @@
 import React, { useState } from 'react';
-import Image from 'next/image';
-import answer_question_data from '@/src/data/answer-question-data';
-
-
-import shape_1 from  "@assets/img/support/shape-img.png";
-import shape_2 from  "@assets/img/support/shape-bg.png";
-import AngleArrow from '@/src/svg/angle-arrow';
-import LineArrowTwo from '@/src/svg/line-arrow-2';
+import ContactForm from '@/src/forms/contact-form'; 
+import EmailIconOne from '@/src/svg/email-icon-1';
+import PhoneIcon from '@/src/svg/phone-icon';
 
 const FaqArea = () => {
     const [activeIndex, setActiveIndex] = useState(null);
@@ -16,61 +11,50 @@ const FaqArea = () => {
 
     return (
         <>
-            <section className="tp-support-area tp-support-bg p-relative pb-110">
-            <div className="container container-large">
-               <div className="tp-support-shape">
-                  <Image className="shape-1" src={shape_1} alt="theme-pure" />
-                  <Image className="shape-2" src={shape_2} alt="theme-pure" />
-               </div>
-               <div className="row justify-content-center">
-                  <div className="col-xxl-8 col-xl-10">
-                     <div className="tp-support-title-wrapper text-center">
-                        <span className="tp-section-title__pre">
-                           best IT <span className="title-pre-color">Support</span>
-                           <AngleArrow /> 
-                        </span>
-                        <h3 className="tp-section-title">Frequently Ask <span className="title-color">Question?</span>
-                           <span className="title-center-shape">
-                            <LineArrowTwo /> 
-                           </span>
-                        </h3>
-                     </div>
-
-                     <div className="tp-support-faq faq-style-1">
-                        <div className="tp-faq-tab-content tp-accordion">
-                           <div className="accordion" id="general_accordion">
-                            {answer_question_data.map((item, i) => 
-                                <div key={i} className={`accordion-item`}>
-                                    <h2 className="accordion-header" id={`heading${item.accordion_id}`}>
-                                    <button 
-                                    className={`accordion-button ${item.collapsed}`} 
-                                    type="button" 
-                                    data-bs-toggle="collapse" 
-                                    data-bs-target={`#collapse${item.accordion_id}`} 
-                                    aria-controls={`collapse${item.accordion_id}`}
-                                    >
-                                        {item.question}
-                                    </button>
-                                    </h2>
-                                    <div 
-                                    id={`collapse${item.accordion_id}`} 
-                                    className={`accordion-collapse collapse ${item.show ? "show" : ""}`} 
-                                    aria-labelledby={`heading${item.accordion_id}`} 
-                                    data-bs-parent="#general_accordion"
-                                    >
-                                    <div className="accordion-body">
-                                        <p>{item.answer}</p>
-                                    </div>
-                                    </div>
-                                </div> 
-                            )} 
-                            </div> 
+             <section className="tp-contact-area pt-120 pb-90">
+                <div className="container">
+                <div className="row">
+                    <div className="col-lg-6">
+                        <div className="tp-contact-wrapper">
+                            <div className="tp-contact-title-wrapper">
+                            <h3 className="tp-contact-title">Contáctate <span className="title-color">con nosotros</span></h3> 
+                            <p>Email, call, or complete the form to learn how Kion can <br /> 
+                             solve your cloud management and governance cha.</p>-
+                            </div>
+                            <div className="tp-contact-content">
+                            <div className="tp-contact-content-mail d-flex align-items-center">
+                                <div className="tp-contact-content-mail-icon">
+                                    <span> 
+                                        <EmailIconOne /> 
+                                    </span>
+                                </div>
+                                <h3 className="tp-contact-item-title"><a href="mailto:capacitaciones@binex.edu.pe">capacitaciones@binex.edu.pe</a></h3>
+                            </div>
+                            <div className="tp-contact-content-phone d-flex align-items-center">
+                                <div className="tp-contact-content-phone-icon">
+                                    <span>
+                                        <PhoneIcon /> 
+                                    </span>
+                                </div>
+                                <h3 className="tp-contact-item-title">
+                                    <a href="https://api.whatsapp.com/send?phone=51921814045" target='_blank'>+51 921 814 045</a>
+                                </h3>
+                            </div>
+                            
+                            </div>
                         </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
+                    </div>
+                    <div className="col-lg-6">
+                        <div className="tp-contact-form">
+                            <h3 className="tp-contact-form-title">Escríbenos!</h3>
+                     
+                            <ContactForm /> 
+                            <p className="ajax-response"></p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
         </>
     );
 };

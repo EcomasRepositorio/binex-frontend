@@ -10,7 +10,7 @@ const ContactForm = () => {
               <input
                 name="name"
                 type="text"
-                placeholder="Your Name*"
+                placeholder="Nombres*"
                 required
               />
             </div>
@@ -20,7 +20,7 @@ const ContactForm = () => {
               <input
                 name="email"
                 type="email"
-                placeholder="Email Address*"
+                placeholder="Correo Electronico*"
                 required
               />
             </div>
@@ -30,32 +30,23 @@ const ContactForm = () => {
               <input
                 name="text"
                 type="text"
-                placeholder="Service Type"
+                placeholder="Celular*"
                 required
               />
             </div>
           </div>
-          <div className="col-md-6">
-            <div className="tp-contact-input">
-              <input
-                name="text"
-                type="text"
-                placeholder="Phone Number"
-                required
-              />
-            </div>
-          </div>
+          
           <div className="col-md-12">
             <div className="tp-contact-input">
               <textarea
                 name="message"
-                placeholder="Enter Your Message here"
+                placeholder="Escribe tu mensaje aqui"
               ></textarea>
             </div>
           </div>
           <div className="tp-contact-btn mt-10">
             <button type="submit" className="tp-btn">
-              Send Message
+              Enviar Mensaje
             </button>
           </div>
         </div>

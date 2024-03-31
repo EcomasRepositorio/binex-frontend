@@ -141,8 +141,8 @@ li,
   --tp-text-body: #5A627D;
   --tp-text-1: #261F1F;
   --tp-text-2: #0C0808;
-  --tp-theme-primary: #020626;
-  --tp-theme-secondary: #05DAC3;
+  --tp-theme-primary: #0079bb;
+  --tp-theme-secondary: #00dbb8;
   --tp-bg-primary: #F3FBFE;
   --tp-border-primary: #000;
   --tp-border-secondary: #000;
@@ -7706,7 +7706,7 @@ div.demo img {
 .tp-feature-wrapper p::after {
   position: absolute;
   content: "";
-  background: #05DAC3;
+  background: #00dbb8;
   width: 2px;
   height: 41px;
   left: 128px;
@@ -8564,6 +8564,7 @@ div.demo img {
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tp-fun-fact-area {
     overflow: hidden;
+   
   }
 }
 .tp-fun-fact-shape .shape-1 {
@@ -8688,7 +8689,7 @@ div.demo img {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-fun-fact-thumb img {
-    width: 120%;
+    width: 70%;
     margin-top: 25px;
   }
 }
@@ -11693,7 +11694,7 @@ div.demo img {
   border-radius: 50%;
   bottom: -25px;
   right: -7px;
-  background-color: #05DAC3;
+  background-color: #00dbb8;
 }
 .circle-animation span.tp-circle-6 {
   display: block;
@@ -11721,7 +11722,7 @@ div.demo img {
   border-radius: 50%;
   top: -25px;
   right: -6px;
-  background-color: #05DAC3;
+  background-color: #00dbb8;
 }
 .circle-animation span.tp-circle-7 {
   display: block;
@@ -11909,7 +11910,7 @@ div.demo img {
 .tp-industry-content-title::after {
   position: absolute;
   content: "";
-  background: #05DAC3;
+  background: #00dbb8;
   width: 2px;
   height: 56px;
   left: -10px;
